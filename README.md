@@ -7,7 +7,7 @@ This Youtube-api project is a simple APP using Youtube Data API to add youtube f
 ### react-redux-router
 In this project, I learned about React Router and saw how to use react-router library and react-router-redux library and did some practice.#
 #Demo
-Directory | 框架,技術 | PS | Demo
+Directory | 框架,技術 | P.S. | Demo
  --- | --- | --- | ---
 react-redux-todos | React.js, Redux | 使用Redux來做一個代辦清單todos | [todoslist](https://arcobalenoi27.github.io/react-practice-demo/react-redux-todos/)
 react-redux-youtube-api | React.js, Redux | 使用Redux來做一個簡易的youtube搜尋工具 | [youtube search](https://arcobalenoi27.github.io/react-practice-demo/react-redux-youtube-api/)
