@@ -14,4 +14,4 @@ react-redux-youtube-api | React.js, Redux | 使用Redux來做一個簡易的yout
 react-redux-router | React.js, Redux | 使用React Router來練習routering | None
 
 ##Q&A
-Because my English is not so soothing, so if my English is wrong or strange, please let me know, it helps me out a lot.
+Because my English is not so soothing, so if my English is wrong or strange, please let me know, it helps me  a lot.
