@@ -5,7 +5,7 @@ In this project, I built a todos project using Redux technology and React framew
 ### react-redux-youtube-api
 This Youtube-api project is a simple APP using Youtube Data API to add youtube features to this application. You can use this APP to search any  video from Youtube with the keywords you like. 
 ### react-redux-router
-In this project, I learned about React Router and saw how to use react-router library and react-router-redux library and did some practice.
+In this project, I learned about React Router and saw how to use react-router library and react-router-redux library and did some practices.
 #Demo
 Directory | 框架,技術 | P.S. | Demo
  --- | --- | --- | ---
@@ -14,4 +14,4 @@ react-redux-youtube-api | React.js, Redux | 使用Redux來做一個簡易的yout
 react-redux-router | React.js, Redux | 使用React Router來練習routering | None
 
 ##Q&A
-Because my English is not so soothing, so if my English is wrong or strange, please let me know, it helps me  a lot.
+Because my English is not so soothing, so if my English is wrong or strange, please let me know, it helps me  a lot. Thanks.
