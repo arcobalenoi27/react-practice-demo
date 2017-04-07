@@ -29,8 +29,9 @@ class SearchBar extends Component {
         }
     }
         
-    _doSearch()  {
+    _doSearch(e)  {
         //do Search
+        e.preventDefault();
         $('.search-container').css({transform: 'translateY(0%)'});
         $('.search-container').animate({top: '0vh'}, 800);
         $('.search-result-item:last-of-type').css({opacity: '1'});
@@ -47,7 +48,7 @@ class SearchBar extends Component {
                     </h1>
                     <input type="text" className={`keyword`} placeholder="Enter something..." onKeyPress={ this._handleKeyPress} />
                     <div className={`btn-set`}>
-                        <a href="" className={`search-btn btn`}>
+                        <a href="#" className={`search-btn btn`}>
                             <FontAwesome className="fa fa-search" onClick={this._doSearch} />
                             
                         </a>
