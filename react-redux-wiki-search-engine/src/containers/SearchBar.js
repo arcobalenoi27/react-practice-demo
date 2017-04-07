@@ -35,7 +35,7 @@ class SearchBar extends Component {
         $('.search-container').css({transform: 'translateY(0%)'});
         $('.search-container').animate({top: '0vh'}, 800);
         $('.search-result-item:last-of-type').css({opacity: '1'});
-        this.props.onSearch(this.state.term);
+        this.props.onSearch($('.keyword').val());
     }
     
     render() {
@@ -48,8 +48,9 @@ class SearchBar extends Component {
                     </h1>
                     <input type="text" className={`keyword`} placeholder="Enter something..." onKeyPress={ this._handleKeyPress} />
                     <div className={`btn-set`}>
-                        <a href="#" className={`search-btn btn`}>
-                            <FontAwesome className="fa fa-search" onClick={this._doSearch} />
+                        <a href="#" className={`search-btn btn`} onClick={
+                        this._doSearch}>
+                            <FontAwesome className="fa fa-search"   />
                             
                         </a>
                         <a href="http://en.wikipedia.org/wiki/Special:Random" className={`random-btn btn`} target="_blank">
