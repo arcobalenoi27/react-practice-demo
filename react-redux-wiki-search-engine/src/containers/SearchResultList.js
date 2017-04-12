@@ -27,7 +27,7 @@ class SearchResultList extends Component {
             return (
                 <NotFoundResult />    
             )
-        } else if(active.length == 10){
+        } else if(active.length > 0){
             
             return (
                     <section className={`search-result-list`}>
